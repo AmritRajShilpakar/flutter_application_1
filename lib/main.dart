@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget{
         brightness: Brightness.dark),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Easy List'),
+          title: Text('EasyList'),
         ),
         body: ProductManager(startingProduct: 'Food Tester')
       ),
